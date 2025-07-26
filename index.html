@@ -18,35 +18,41 @@
     </div>
     <div class="page-content">
         <div class="signup-intro">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-            <p>You <em>know</em> you want to.</p>
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
+            <h2>You <em>know</em> you want to.</h2>
         </div>
-        <div class="signup-form">
+        <div class="signup-form-container">
             <h2>Let's do this!</h2>
-            <form>
-                <div class="text-input">
-                    <label for="first-name">First Name</label>
-                    <input id="first-name" type="text">
+            <form class="signup">
+                <div class="text-input-row">
+                    <div class="text-input">
+                        <label for="first-name">First Name</label>
+                        <input id="first-name" type="text">
+                    </div>
+                    <div class="text-input">
+                        <label for="last-name">Last Name</label>
+                        <input id="last-name" type="text">
+                    </div>
                 </div>
-                <div class="text-input">
-                    <label for="last-name">Last Name</label>
-                    <input id="last-name" type="text">
+                <div class="text-input-row">
+                    <div class="text-input">
+                        <label for="email">Email</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div class="text-input">
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" type="tel">
+                    </div>
                 </div>
-                <div class="text-input">
-                    <label for="email">Email</label>
-                    <input id="email" type="email">
-                </div>
-                <div class="text-input">
-                    <label for="phone">Phone Number</label>
-                    <input id="phone" type="tel">
-                </div>
-                <div class="text-input">
-                    <label for="password">Password</label>
-                    <input id="password" type="password">
-                </div>
-                <div class="text-input">
-                    <label for="password-confirm">Confirm Password</label>
-                    <input id="password-confirm" type="password">
+                <div class="text-input-row">
+                    <div class="text-input">
+                        <label for="password">Password</label>
+                        <input id="password" type="password" required>
+                    </div>
+                    <div class="text-input">
+                        <label for="password-confirm">Confirm Password</label>
+                        <input id="password-confirm" type="password" required>
+                    </div>
                 </div>
             </form>
         </div>
