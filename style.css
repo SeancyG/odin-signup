@@ -18,6 +18,11 @@
     --input-border-invalid: #e42929;
 }
 
+@font-face {
+    font-family: norse-bold;
+    src: url(Norse-Bold.otf);
+}
+
 body {
     margin: 0;
     display: flex;
@@ -28,6 +33,7 @@ body {
 
 h1 {
     font-size: 5rem;
+    font-family: norse-bold, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
